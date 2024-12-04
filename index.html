@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>work</title>
+  <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet">
+  <link rel="stylesheet" href="./item.css">
+  <script src="./item.js"></script>
+</head>
+<body>
+  <div id="main">
+    <div id="content">
+      <h2>해파리</h2>
+      <p>2023.12</p>
+
+      <!-- Gallery -->
+      <div class="gallery">
+        <button class="arrow left-arrow" onclick="changeSlide(-1)">&#9664;</button>
+        <div class="gallery-items">
+          <img src="./8.png" alt="work" class="responsive-media gallery-item" onclick="openInNewWindow(this.src)">
+          <img src="./jellyfish.gif" class="responsive-media gallery-item media-container" loop="infinite" onclick="openInNewWindow(this.src)"></img>
+          <div class="responsive-media gallery-item media-container">
+            <video src="./jellyfish2.mp4" autoplay muted loop onclick="openInNewWindow(this.src)"></video>
+            <p class="video-duration">00:16</p>
+          </div>
+        </div>
+        <button class="arrow right-arrow" onclick="changeSlide(1)">&#9654;</button>
+      </div>
+
+      <div class="note">
+        <p>해파리를 상징적으로 활용하여 각자의 독특한 내면을 표현하고,<br>이들이 조화롭게 이루어질 때 어떠한 아름다움이 청조될 수 있는지를 시각적으로 표현했다.</p>
+        <br>
+        <p>
+          사람들을 해파리와 대치시키고, 개개인의 내면을 해파리의 맑은 빛으로 연결했다.
+          <br>
+          이러한 해파리들이 모여 바다를 이루는 모습은 각자의 내면들이 조화를 이루는 것이며
+          <br>
+          사회적 조화를 표현한다.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
